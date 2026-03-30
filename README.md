@@ -26,6 +26,7 @@
   - [humanize — AI 文章去痕](#humanize--ai-文章去痕)
   - [api — 原始 API 调用](#api--原始-api-调用)
 - [面向 AI Agent](#面向-ai-agent)
+- [搭配生图：baoyu-skills](#搭配生图baoyu-skills)
 - [项目结构](#项目结构)
 - [开发](#开发)
 - [联系作者](#联系作者)
@@ -630,6 +631,60 @@ wechat-cli draft publish <media_id> --format json --quiet
 cat article.md | wechat-cli md2html --theme claude \
   --draft --title "文章标题" --thumb-media-id <id> --format json --quiet
 ```
+
+## 搭配生图：baoyu-skills
+
+wechat-cli 专注于**文章排版与发布**，本身不包含图片生成能力。如果你需要 AI 生成封面图、正文配图、信息图等，推荐搭配 [baoyu-skills](https://github.com/JimLiu/baoyu-skills) 使用 —— 一套面向 Claude Code 的 AI 生图技能集。
+
+### 安装
+
+```bash
+# 克隆到本地
+git clone https://github.com/JimLiu/baoyu-skills.git
+
+# 在 Claude Code 中加载（将 skills 目录添加到 Claude Code 的自定义技能路径）
+```
+
+> 具体安装与配置方式请参考 [baoyu-skills README](https://github.com/JimLiu/baoyu-skills#readme)。
+
+### 推荐搭配的生图技能
+
+| 技能 | 用途 | 适用场景 |
+|------|------|---------|
+| **baoyu-cover-image** | 生成文章封面图 | 5 维度组合（类型 x 色板 x 渲染 x 文字 x 情绪），支持多种宽高比 |
+| **baoyu-article-illustrator** | 正文智能配图 | 分析文章结构，自动识别需要配图的位置并生成插图 |
+| **baoyu-image-gen** | 通用 AI 生图 | 支持 OpenAI、Google、DashScope 等多家 API，文生图 / 图生图 |
+| **baoyu-infographic** | 信息图生成 | 20 种布局 x 17 种视觉风格，适合数据可视化内容 |
+| **baoyu-xhs-images** | 小红书风格图片 | 10 种视觉风格 x 8 种布局，适合小绿书场景 |
+| **baoyu-compress-image** | 图片压缩 | 压缩为 WebP/PNG，上传素材前优化文件体积 |
+
+### 典型工作流：AI 生图 + wechat-cli 发布
+
+```bash
+# 1. 用 baoyu-cover-image 生成封面图 → cover.png
+#    （在 Claude Code 中直接使用 /baoyu-cover-image 技能）
+
+# 2. 用 baoyu-article-illustrator 为文章生成配图
+#    （Agent 自动分析 Markdown 结构并插入图片）
+
+# 3. 压缩图片（可选）
+#    /baoyu-compress-image cover.png
+
+# 4. 上传封面到微信素材库
+wechat-cli media upload-permanent --type thumb --file cover.png --format json --quiet
+
+# 5. 上传正文配图（获取可在文章中引用的 URL）
+wechat-cli media upload-img --file illustration-1.png
+
+# 6. 排版 + 创建草稿
+wechat-cli md2html --input article.md --theme claude \
+  --draft --title "文章标题" --thumb-media-id <封面media_id> --format json --quiet
+
+# 7. 发布
+wechat-cli draft publish <media_id> --format json --quiet
+```
+
+> **分工明确**：baoyu-skills 负责「生成图片」，wechat-cli 负责「上传素材 + 排版 + 发布」，两者通过文件和 media_id 无缝衔接。
 
 ## 项目结构
 

@@ -20,19 +20,25 @@
 
 ## 安装
 
-### npm 全局安装
-
-```bash
-npm install -g wechat-cli
-```
-
-### 从源码构建
-
 ```bash
 git clone https://github.com/houht1013/wechat-cli.git
 cd wechat-cli
 npm install
 npm run build
+```
+
+安装完成后，可以通过以下方式运行：
+
+```bash
+# 方式 1：直接用 node 运行
+node dist/bin/wechat-cli.js --help
+
+# 方式 2：npm link 注册为全局命令（推荐）
+npm link
+wechat-cli --help
+
+# 方式 3：开发模式运行（无需 build）
+npm run dev -- --help
 ```
 
 **环境要求**：Node.js >= 18.0.0

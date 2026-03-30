@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const lavenderTheme: Theme = {
+  id: 'lavender',
+  name: '薰衣草',
+  description: '梦幻紫色调的浪漫氛围，诗意与灵感的温柔表达',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.75 !important; color: #3d3155 !important; background-color: #f5f0ff !important; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #6b4c9a !important; line-height: 1.3 !important; margin: 38px 0 16px; letter-spacing: -0.015em;',
+    h2: 'font-size: 26px; font-weight: 600; color: #7c5cad !important; line-height: 1.35 !important; margin: 32px 0 16px;',
+    h3: 'font-size: 21px; font-weight: 600; color: #3d3155 !important; line-height: 1.4 !important; margin: 28px 0 14px;',
+    h4: 'font-size: 18px; font-weight: 600; color: #3d3155 !important; line-height: 1.4 !important; margin: 24px 0 12px;',
+    p: 'margin: 18px 0 !important; line-height: 1.75 !important; color: #3d3155 !important;',
+    strong: 'font-weight: 700; color: #6b4c9a !important; background-color: rgba(107,76,154,0.08); padding: 0 4px; border-radius: 4px;',
+    em: 'font-style: italic; color: #8a6dba !important;',
+    a: 'color: #6b4c9a !important; text-decoration: none; border-bottom: 1px solid rgba(107,76,154,0.3); padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.75 !important; color: #3d3155 !important;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #ece4ff !important; border-left: 4px solid #9b7fd4; color: #5a4570 !important; border-radius: 8px;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: #ece4ff !important; color: #6b4c9a !important; border-radius: 4px; font-size: 12px !important; line-height: 1.5 !important;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #ece4ff !important; border-radius: 12px; overflow-x: auto; font-size: 12px !important; line-height: 1.5 !important;',
+    table: 'width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 15px;',
+    th: 'background-color: #ece4ff !important; padding: 12px 16px; text-align: left; font-weight: 600; color: #3d3155 !important; border: 1px solid #ddd0f0;',
+    td: 'padding: 12px 16px; border: 1px solid #ddd0f0; color: #3d3155 !important;',
+    tr_even: 'background-color: #ece4ff;',
+    hr: 'margin: 36px auto; border: none; height: 1px; background-color: #ddd0f0 !important; width: 100%;',
+    img: 'max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 12px;',
+  },
+};

@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const githubTheme: Theme = {
+  id: 'github',
+  name: 'GitHub',
+  description: '开发者最熟悉的阅读界面，README 即视感',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.6; color: #1f2328; background-color: #ffffff; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 600; color: #1f2328; line-height: 1.25; margin: 24px 0 16px; padding-bottom: 10px; border-bottom: 1px solid #d1d9e0;',
+    h2: 'font-size: 24px; font-weight: 600; color: #1f2328; line-height: 1.25; margin: 24px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #d1d9e0;',
+    h3: 'font-size: 20px; font-weight: 600; color: #1f2328; line-height: 1.25; margin: 24px 0 16px;',
+    h4: 'font-size: 16px; font-weight: 600; color: #1f2328; line-height: 1.25; margin: 24px 0 16px;',
+    p: 'margin: 16px 0; line-height: 1.6; color: #1f2328;',
+    strong: 'font-weight: 600; color: #1f2328;',
+    em: 'font-style: italic; color: #1f2328;',
+    a: 'color: #0969da; text-decoration: underline; text-underline-offset: 2px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 4px 0; line-height: 1.6; color: #1f2328;',
+    blockquote: 'margin: 16px 0; padding: 8px 16px; background-color: transparent; border-left: 4px solid #d0d7de; color: #656d76; border-radius: 0;',
+    code: 'font-family: "SF Mono", Consolas, "Liberation Mono", Menlo, monospace; padding: 3px 6px; background-color: rgba(175,184,193,0.2); color: #1f2328; border-radius: 6px; font-size: 14px;',
+    pre: 'margin: 16px 0; padding: 16px; background-color: #f6f8fa; border-radius: 6px; overflow-x: auto; font-size: 14px; line-height: 1.45;',
+    table: 'width: 100%; border-collapse: collapse; margin: 16px 0;',
+    th: 'padding: 8px 16px; background-color: #f6f8fa; font-weight: 600; text-align: left; border: 1px solid #d0d7de;',
+    td: 'padding: 8px 16px; border: 1px solid #d0d7de;',
+    tr_even: 'background-color: #f6f8fa;',
+    hr: 'border: none; height: 2px; background-color: #d0d7de; margin: 24px 0;',
+    img: 'max-width: 100%; height: auto; margin: 16px 0;',
+  },
+};

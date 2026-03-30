@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const notionTheme: Theme = {
+  id: 'notion',
+  name: 'Notion',
+  description: '极致克制的黑白灰，纯粹信息密度与无干扰写作',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 16px; line-height: 1.7; color: #37352f; background-color: #ffffff; word-wrap: break-word;',
+    h1: 'font-size: 30px; font-weight: 700; color: #37352f; line-height: 1.2; margin: 32px 0 8px;',
+    h2: 'font-size: 24px; font-weight: 600; color: #37352f; line-height: 1.3; margin: 28px 0 8px;',
+    h3: 'font-size: 20px; font-weight: 600; color: #37352f; line-height: 1.3; margin: 24px 0 8px;',
+    h4: 'font-size: 16px; font-weight: 600; color: #37352f; line-height: 1.4; margin: 20px 0 6px;',
+    p: 'margin: 4px 0 8px; line-height: 1.7; color: #37352f;',
+    strong: 'font-weight: 600; color: #37352f;',
+    em: 'font-style: italic; color: #37352f;',
+    a: 'color: #37352f; text-decoration: underline; text-decoration-color: rgba(55,53,47,0.4); text-underline-offset: 3px;',
+    ul: 'margin: 4px 0; padding-left: 26px;',
+    ol: 'margin: 4px 0; padding-left: 26px;',
+    li: 'margin: 2px 0; line-height: 1.7; color: #37352f;',
+    blockquote: 'margin: 8px 0; padding: 4px 0 4px 16px; border-left: 3px solid #37352f; color: #37352f;',
+    code: 'font-family: "SFMono-Regular", Consolas, monospace; padding: 2px 5px; background-color: rgba(135,131,120,0.15); color: #eb5757; border-radius: 3px; font-size: 14px;',
+    pre: 'margin: 12px 0; padding: 20px; background-color: #f7f6f3; border-radius: 4px; overflow-x: auto; font-size: 14px; line-height: 1.5;',
+    table: 'width: 100%; border-collapse: collapse; margin: 12px 0;',
+    th: 'padding: 8px 12px; background-color: #f7f6f3; font-weight: 600; text-align: left; border: 1px solid #e9e9e7;',
+    td: 'padding: 8px 12px; border: 1px solid #e9e9e7;',
+    tr_even: 'background-color: #f7f6f3;',
+    hr: 'border: none; height: 1px; background-color: #e9e9e7; margin: 16px 0;',
+    img: 'max-width: 100%; height: auto; border-radius: 2px; margin: 8px 0;',
+  },
+};

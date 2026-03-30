@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const appleTheme: Theme = {
+  id: 'apple',
+  name: 'Mac',
+  description: '纯净现代的极致留白，适合日常记录的万能首选',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif; font-size: 16px; line-height: 1.7; color: #333333; background-color: #ffffff; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #1d1d1f; line-height: 1.2; margin: 40px 0 16px; letter-spacing: -0.02em;',
+    h2: 'font-size: 26px; font-weight: 600; color: #1d1d1f; line-height: 1.25; margin: 36px 0 14px; letter-spacing: -0.01em;',
+    h3: 'font-size: 21px; font-weight: 600; color: #1d1d1f; line-height: 1.3; margin: 30px 0 12px;',
+    h4: 'font-size: 17px; font-weight: 600; color: #1d1d1f; line-height: 1.35; margin: 24px 0 10px;',
+    p: 'margin: 16px 0; line-height: 1.7; color: #333333;',
+    strong: 'font-weight: 600; color: #1d1d1f;',
+    em: 'font-style: italic; color: #6e6e73;',
+    a: 'color: #0071e3; text-decoration: none;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 6px 0; line-height: 1.7; color: #333333;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #f5f5f7; border-left: 4px solid #0071e3; color: #6e6e73; border-radius: 8px;',
+    code: 'font-family: "SF Mono", Menlo, Consolas, monospace; padding: 3px 6px; background-color: #f5f5f7; color: #1d1d1f; border-radius: 6px; font-size: 14px;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #f5f5f7; border-radius: 12px; overflow-x: auto; font-size: 14px; line-height: 1.5;',
+    table: 'width: 100%; border-collapse: collapse; margin: 24px 0;',
+    th: 'padding: 12px 16px; background-color: #f5f5f7; font-weight: 600; text-align: left; border-bottom: 2px solid #d2d2d7;',
+    td: 'padding: 10px 16px; border-bottom: 1px solid #e8e8ed;',
+    tr_even: 'background-color: #fafafa;',
+    hr: 'border: none; height: 1px; background-color: #d2d2d7; margin: 32px 0;',
+    img: 'max-width: 100%; height: auto; border-radius: 12px; margin: 16px 0;',
+  },
+};

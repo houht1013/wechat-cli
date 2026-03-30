@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.js.map
+*.d.ts.map
+.DS_Store
+.claude/
+wechat_docs/
+test-*.md

@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const solarizedTheme: Theme = {
+  id: 'solarized',
+  name: 'Solarized',
+  description: '经典暖色调开发者配色，柔和护眼的阅读体验',
+  codeTheme: 'solarized-light',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.7 !important; color: #657b83 !important; background-color: #fdf6e3 !important; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #cb4b16 !important; line-height: 1.3 !important; margin: 38px 0 16px; letter-spacing: -0.015em;',
+    h2: 'font-size: 26px; font-weight: 600; color: #268bd2 !important; line-height: 1.35 !important; margin: 32px 0 16px;',
+    h3: 'font-size: 21px; font-weight: 600; color: #2aa198 !important; line-height: 1.4 !important; margin: 28px 0 14px;',
+    h4: 'font-size: 18px; font-weight: 600; color: #657b83 !important; line-height: 1.4 !important; margin: 24px 0 12px;',
+    p: 'margin: 18px 0 !important; line-height: 1.7 !important; color: #657b83 !important;',
+    strong: 'font-weight: 700; color: #cb4b16 !important;',
+    em: 'font-style: italic; color: #93a1a1 !important;',
+    a: 'color: #268bd2 !important; text-decoration: none; border-bottom: 1px solid #268bd2; padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.7 !important; color: #657b83 !important;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #eee8d5 !important; border-left: 4px solid #2aa198; color: #586e75 !important; border-radius: 4px;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: #eee8d5 !important; color: #859900 !important; border-radius: 4px; font-size: 12px !important; line-height: 1.5 !important;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #eee8d5 !important; border-radius: 8px; overflow-x: auto; font-size: 12px !important; line-height: 1.5 !important;',
+    table: 'width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 15px;',
+    th: 'background-color: #eee8d5 !important; padding: 12px 16px; text-align: left; font-weight: 600; color: #657b83 !important; border: 1px solid #ddd6c1;',
+    td: 'padding: 12px 16px; border: 1px solid #ddd6c1; color: #657b83 !important;',
+    tr_even: 'background-color: #eee8d5;',
+    hr: 'margin: 36px auto; border: none; height: 1px; background-color: #eee8d5 !important; width: 100%;',
+    img: 'max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 4px;',
+  },
+};

@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const cyberpunkTheme: Theme = {
+  id: 'cyberpunk',
+  name: 'Cyberpunk',
+  description: '霓虹闪烁的赛博朋克世界，品红与青的极致碰撞',
+  codeTheme: 'github-dark',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: "SF Mono", "Fira Code", Consolas, monospace; font-size: 15px; line-height: 1.7 !important; color: #e0e0ff !important; background-color: #0d0221 !important; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #ff2a6d !important; text-shadow: 0 0 8px rgba(255,42,109,0.5); line-height: 1.3 !important; margin: 38px 0 16px; letter-spacing: 0.05em; text-transform: uppercase;',
+    h2: 'font-size: 26px; font-weight: 600; color: #05d9e8 !important; text-shadow: 0 0 8px rgba(5,217,232,0.5); line-height: 1.35 !important; margin: 32px 0 16px;',
+    h3: 'font-size: 21px; font-weight: 600; color: #d1f7ff !important; line-height: 1.4 !important; margin: 28px 0 14px;',
+    h4: 'font-size: 18px; font-weight: 600; color: #ff2a6d !important; line-height: 1.4 !important; margin: 24px 0 12px;',
+    p: 'margin: 18px 0 !important; line-height: 1.7 !important; color: #e0e0ff !important;',
+    strong: 'font-weight: 700; color: #ff2a6d !important; text-shadow: 0 0 6px rgba(255,42,109,0.4);',
+    em: 'font-style: italic; color: #05d9e8 !important;',
+    a: 'color: #05d9e8 !important; text-decoration: none; border-bottom: 1px solid #05d9e8; padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.7 !important; color: #e0e0ff !important;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #1a0a3e !important; border-left: 4px solid #ff2a6d; color: #c8c8ff !important; border-radius: 0;',
+    code: 'font-family: "SF Mono", "Fira Code", Consolas, monospace; padding: 3px 6px; background-color: #1a0a3e !important; color: #05d9e8 !important; border-radius: 0; font-size: 13px !important; line-height: 1.5 !important; border: 1px solid #2a1a4e;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #1a0a3e !important; border-radius: 0; overflow-x: auto; font-size: 13px !important; line-height: 1.5 !important; border: 1px solid #2a1a4e;',
+    table: 'width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 14px;',
+    th: 'background-color: #1a0a3e !important; padding: 12px 16px; text-align: left; font-weight: 600; color: #ff2a6d !important; border: 1px solid #2a1a4e;',
+    td: 'padding: 12px 16px; border: 1px solid #2a1a4e; color: #e0e0ff !important;',
+    tr_even: 'background-color: #1a0a3e;',
+    hr: 'margin: 36px auto; border: none; height: 2px; background: linear-gradient(90deg, #ff2a6d, #05d9e8) !important; width: 100%;',
+    img: 'max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 0;',
+  },
+};

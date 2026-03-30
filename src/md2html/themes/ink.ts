@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const inkTheme: Theme = {
+  id: 'ink',
+  name: '水墨',
+  description: '纯粹的黑白水墨风，零色彩干扰的极简阅读',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: "Noto Serif SC", "Source Han Serif CN", Georgia, serif; font-size: 17px; line-height: 1.8; color: #1a1a1a; background-color: #ffffff; word-wrap: break-word;',
+    h1: 'font-size: 28px; font-weight: 700; color: #000000; line-height: 1.3; margin: 40px 0 16px; letter-spacing: 0.05em;',
+    h2: 'font-size: 23px; font-weight: 700; color: #1a1a1a; line-height: 1.35; margin: 36px 0 14px; letter-spacing: 0.03em;',
+    h3: 'font-size: 19px; font-weight: 600; color: #1a1a1a; line-height: 1.4; margin: 30px 0 12px;',
+    h4: 'font-size: 17px; font-weight: 600; color: #333333; line-height: 1.4; margin: 24px 0 10px;',
+    p: 'margin: 18px 0; line-height: 1.8; color: #1a1a1a; text-align: justify;',
+    strong: 'font-weight: 700; color: #000000;',
+    em: 'font-style: italic; color: #555555;',
+    a: 'color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #999999;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 6px 0; line-height: 1.8; color: #1a1a1a;',
+    blockquote: 'margin: 28px 0; padding: 16px 20px; background-color: transparent; border-left: 3px solid #1a1a1a; color: #555555; font-style: italic;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 2px 5px; background-color: #f5f5f5; color: #333333; border-radius: 2px; font-size: 14px;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #f5f5f5; border-radius: 2px; overflow-x: auto; font-size: 14px; line-height: 1.5; border: 1px solid #e5e5e5;',
+    table: 'width: 100%; border-collapse: collapse; margin: 24px 0;',
+    th: 'padding: 10px 16px; background-color: #1a1a1a; color: #ffffff; font-weight: 600; text-align: left; border: 1px solid #1a1a1a;',
+    td: 'padding: 10px 16px; border: 1px solid #e5e5e5; color: #1a1a1a;',
+    tr_even: 'background-color: #f9f9f9;',
+    hr: 'border: none; height: 1px; background-color: #cccccc; margin: 36px 0;',
+    img: 'max-width: 100%; height: auto; margin: 20px 0;',
+  },
+};

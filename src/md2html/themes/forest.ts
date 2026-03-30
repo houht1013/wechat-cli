@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const forestTheme: Theme = {
+  id: 'forest',
+  name: '密林',
+  description: '深邃的暗绿色丛林，自然与神秘感的沉浸式叙事',
+  codeTheme: 'github-dark',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.7 !important; color: #c8dcc8 !important; background-color: #1a2e1a !important; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #7dce82 !important; line-height: 1.3 !important; margin: 38px 0 16px; letter-spacing: -0.015em;',
+    h2: 'font-size: 26px; font-weight: 600; color: #a8d8a8 !important; line-height: 1.35 !important; margin: 32px 0 16px;',
+    h3: 'font-size: 21px; font-weight: 600; color: #8fbc8f !important; line-height: 1.4 !important; margin: 28px 0 14px;',
+    h4: 'font-size: 18px; font-weight: 600; color: #c8dcc8 !important; line-height: 1.4 !important; margin: 24px 0 12px;',
+    p: 'margin: 18px 0 !important; line-height: 1.7 !important; color: #c8dcc8 !important;',
+    strong: 'font-weight: 700; color: #7dce82 !important;',
+    em: 'font-style: italic; color: #a0c8a0 !important;',
+    a: 'color: #7dce82 !important; text-decoration: none; border-bottom: 1px solid #7dce82; padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.7 !important; color: #c8dcc8 !important;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #243824 !important; border-left: 4px solid #4a8b4a; color: #a8c8a8 !important; border-radius: 4px;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: #243824 !important; color: #7dce82 !important; border-radius: 4px; font-size: 12px !important; line-height: 1.5 !important;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #243824 !important; border-radius: 8px; overflow-x: auto; font-size: 12px !important; line-height: 1.5 !important;',
+    table: 'width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 15px;',
+    th: 'background-color: #243824 !important; padding: 12px 16px; text-align: left; font-weight: 600; color: #7dce82 !important; border: 1px solid #3a5a3a;',
+    td: 'padding: 12px 16px; border: 1px solid #3a5a3a; color: #c8dcc8 !important;',
+    tr_even: 'background-color: #243824;',
+    hr: 'margin: 36px auto; border: none; height: 1px; background-color: #3a5a3a !important; width: 100%;',
+    img: 'max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 4px;',
+  },
+};

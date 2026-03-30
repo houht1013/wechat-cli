@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const wechatTheme: Theme = {
+  id: 'wechat',
+  name: '微信公众号原生',
+  description: '原汁原味的官方绿底纹，满足传统阅读习惯的稳妥之选',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.7; color: #333333; background-color: #ffffff; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #111; line-height: 1.3; margin: 38px 0 16px; letter-spacing: -0.015em;',
+    h2: 'font-size: 26px; font-weight: 600; color: #111; line-height: 1.35; margin: 32px 0 16px;',
+    h3: 'font-size: 21px; font-weight: 600; color: #333333; line-height: 1.4; margin: 28px 0 14px;',
+    h4: 'font-size: 18px; font-weight: 600; color: #333333; line-height: 1.4; margin: 24px 0 12px;',
+    p: 'margin: 18px 0; line-height: 1.7; color: #333333;',
+    strong: 'font-weight: 700; color: #07c160; background-color: rgba(7,193,96,0.08); padding: 0 4px; border-radius: 4px;',
+    em: 'font-style: italic; color: #666;',
+    a: 'color: #07c160; text-decoration: none; border-bottom: 1px solid #07c160; padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.7; color: #333333;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #f0f7f2; border-left: 4px solid #07c160; color: #555; border-radius: 4px;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: #f0f7f2; color: #07c160; border-radius: 4px; font-size: 14px;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #f0f7f2; border-radius: 8px; overflow-x: auto; font-size: 14px; line-height: 1.5;',
+    table: 'width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 15px;',
+    th: 'padding: 12px 16px; background-color: #07c160; color: #ffffff; font-weight: 600; text-align: left; border: 1px solid #07c160;',
+    td: 'padding: 10px 16px; border: 1px solid #e8e8e8; color: #333333;',
+    tr_even: 'background-color: #f0f7f2;',
+    hr: 'border: none; height: 1px; background-color: #e8e8e8; margin: 32px 0;',
+    img: 'max-width: 100%; height: auto; border-radius: 8px; margin: 16px 0;',
+  },
+};

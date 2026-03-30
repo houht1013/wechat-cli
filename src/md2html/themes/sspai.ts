@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const sspaiTheme: Theme = {
+  id: 'sspai',
+  name: '少数派',
+  description: '中文数字媒体标杆，经典红色标识与精致排版',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 16px; line-height: 1.75; color: #333333; background-color: #ffffff; word-wrap: break-word;',
+    h1: 'font-size: 28px; font-weight: 700; color: #d71a1b; line-height: 1.3; margin: 36px 0 16px;',
+    h2: 'font-size: 22px; font-weight: 700; color: #333333; line-height: 1.35; margin: 32px 0 14px; padding-bottom: 8px; border-bottom: 2px solid #d71a1b;',
+    h3: 'font-size: 18px; font-weight: 600; color: #333333; line-height: 1.4; margin: 28px 0 12px;',
+    h4: 'font-size: 16px; font-weight: 600; color: #333333; line-height: 1.4; margin: 24px 0 10px;',
+    p: 'margin: 16px 0; line-height: 1.75; color: #333333;',
+    strong: 'font-weight: 700; color: #d71a1b;',
+    em: 'font-style: italic; color: #666666;',
+    a: 'color: #d71a1b; text-decoration: none; border-bottom: 1px solid rgba(215,26,27,0.3);',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 6px 0; line-height: 1.75; color: #333333;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #fff5f5; border-left: 4px solid #d71a1b; color: #555; border-radius: 4px;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: #fff5f5; color: #d71a1b; border-radius: 4px; font-size: 14px;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #f8f8f8; border-radius: 8px; overflow-x: auto; font-size: 14px; line-height: 1.5;',
+    table: 'width: 100%; border-collapse: collapse; margin: 24px 0;',
+    th: 'padding: 12px 16px; background-color: #d71a1b; color: #ffffff; font-weight: 600; text-align: left; border: 1px solid #d71a1b;',
+    td: 'padding: 10px 16px; border: 1px solid #eeeeee; color: #333333;',
+    tr_even: 'background-color: #fafafa;',
+    hr: 'border: none; height: 2px; background-color: #d71a1b; margin: 32px 0; opacity: 0.3;',
+    img: 'max-width: 100%; height: auto; border-radius: 6px; margin: 16px 0;',
+  },
+};

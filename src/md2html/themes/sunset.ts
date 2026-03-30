@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const sunsetTheme: Theme = {
+  id: 'sunset',
+  name: '日落',
+  description: '暖琥珀色调的黄昏意境，散文游记与情感表达',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: Georgia, "Times New Roman", Times, serif; font-size: 16px; line-height: 1.8 !important; color: #3d2c1e !important; background-color: #fdf6ee !important; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #c0582a !important; line-height: 1.3 !important; margin: 38px 0 16px; letter-spacing: -0.015em;',
+    h2: 'font-size: 26px; font-weight: 600; color: #c0582a !important; line-height: 1.35 !important; margin: 32px 0 16px;',
+    h3: 'font-size: 21px; font-weight: 600; color: #3d2c1e !important; line-height: 1.4 !important; margin: 28px 0 14px;',
+    h4: 'font-size: 18px; font-weight: 600; color: #3d2c1e !important; line-height: 1.4 !important; margin: 24px 0 12px;',
+    p: 'margin: 20px 0 !important; line-height: 1.8 !important; color: #3d2c1e !important;',
+    strong: 'font-weight: 700; color: #c0582a !important;',
+    em: 'font-style: italic; color: #8a6d4b !important;',
+    a: 'color: #c0582a !important; text-decoration: none; border-bottom: 1px solid rgba(192,88,42,0.3); padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.8 !important; color: #3d2c1e !important;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #f8ead6 !important; border-left: 4px solid #e8a65d; color: #5a4232 !important; border-radius: 4px; font-style: italic;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: #f5e6d0 !important; color: #c0582a !important; border-radius: 4px; font-size: 12px !important; line-height: 1.5 !important;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #f5e6d0 !important; border-radius: 8px; overflow-x: auto; font-size: 12px !important; line-height: 1.5 !important;',
+    table: 'width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 15px;',
+    th: 'background-color: #f5e6d0 !important; padding: 12px 16px; text-align: left; font-weight: 600; color: #3d2c1e !important; border: 1px solid #e8d4b8;',
+    td: 'padding: 12px 16px; border: 1px solid #e8d4b8; color: #3d2c1e !important;',
+    tr_even: 'background-color: #f5e6d0;',
+    hr: 'margin: 36px auto; border: none; height: 1px; background-color: #e8d4b8 !important; width: 100%;',
+    img: 'max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 4px;',
+  },
+};

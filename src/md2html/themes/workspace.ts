@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const workspaceTheme: Theme = {
+  id: 'workspace',
+  name: '飞书效率',
+  description: '沉稳严谨的深蓝配色，适合职场效率与管理方法论',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.7 !important; color: #1f2329 !important; background-color: #f7f8fa !important; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #111 !important; line-height: 1.3 !important; margin: 38px 0 16px; letter-spacing: -0.015em; ',
+    h2: 'font-size: 26px; font-weight: 600; color: #111 !important; line-height: 1.35 !important; margin: 32px 0 16px; border-bottom: 2px solid #3370ff; padding-bottom: 8px;',
+    h3: 'font-size: 21px; font-weight: 600; color: #1f2329 !important; line-height: 1.4 !important; margin: 28px 0 14px;',
+    h4: 'font-size: 18px; font-weight: 600; color: #1f2329 !important; line-height: 1.4 !important; margin: 24px 0 12px;',
+    p: 'margin: 18px 0 !important; line-height: 1.7 !important; color: #1f2329 !important;',
+    strong: 'font-weight: 700; color: #000 !important; ',
+    em: 'font-style: italic; color: #666 !important;',
+    a: 'color: #3370ff !important; text-decoration: none; border-bottom: 1px solid #3370ff; padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.7 !important; color: #1f2329 !important;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #edf1ff !important; border-left: 4px solid #3370ff; color: #555 !important; border-radius: 4px; ',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: #eef1f8 !important; color: #3370ff !important; border-radius: 4px; font-size: 12px !important; line-height: 1.5 !important;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #eef1f8 !important; border-radius: 8px; overflow-x: auto; font-size: 12px !important; line-height: 1.5 !important;',
+    table: 'width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 15px;',
+    th: 'background-color: #eef1f8 !important; padding: 12px 16px; text-align: left; font-weight: 600; color: #1f2329 !important; border: 1px solid #dee0e3;',
+    td: 'padding: 12px 16px; border: 1px solid #dee0e3; color: #1f2329 !important;',
+    tr_even: 'background-color: #eef1f8;',
+    hr: 'margin: 36px auto; border: none; height: 1px; background-color: #dee0e3 !important; width: 100%;',
+    img: 'max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 4px;',
+  },
+};

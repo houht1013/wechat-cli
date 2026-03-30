@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const mintTheme: Theme = {
+  id: 'mint',
+  name: '薄荷',
+  description: '清凉薄荷绿底色，适合生活方式与健康类内容',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.7 !important; color: #2d4a3e !important; background-color: #f0faf5 !important; word-wrap: break-word;',
+    h1: 'font-size: 32px; font-weight: 700; color: #1a7a5a !important; line-height: 1.3 !important; margin: 38px 0 16px; letter-spacing: -0.015em;',
+    h2: 'font-size: 26px; font-weight: 600; color: #1a7a5a !important; line-height: 1.35 !important; margin: 32px 0 16px;',
+    h3: 'font-size: 21px; font-weight: 600; color: #2d4a3e !important; line-height: 1.4 !important; margin: 28px 0 14px;',
+    h4: 'font-size: 18px; font-weight: 600; color: #2d4a3e !important; line-height: 1.4 !important; margin: 24px 0 12px;',
+    p: 'margin: 18px 0 !important; line-height: 1.7 !important; color: #2d4a3e !important;',
+    strong: 'font-weight: 700; color: #1a7a5a !important;',
+    em: 'font-style: italic; color: #5a8a72 !important;',
+    a: 'color: #1a7a5a !important; text-decoration: none; border-bottom: 1px solid rgba(26,122,90,0.3); padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.7 !important; color: #2d4a3e !important;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #e0f5ec !important; border-left: 4px solid #1a7a5a; color: #3d5a4e !important; border-radius: 4px;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: #e0f5ec !important; color: #1a7a5a !important; border-radius: 4px; font-size: 12px !important; line-height: 1.5 !important;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #e0f5ec !important; border-radius: 8px; overflow-x: auto; font-size: 12px !important; line-height: 1.5 !important;',
+    table: 'width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 15px;',
+    th: 'background-color: #e0f5ec !important; padding: 12px 16px; text-align: left; font-weight: 600; color: #2d4a3e !important; border: 1px solid #c8e6d8;',
+    td: 'padding: 12px 16px; border: 1px solid #c8e6d8; color: #2d4a3e !important;',
+    tr_even: 'background-color: #e0f5ec;',
+    hr: 'margin: 36px auto; border: none; height: 1px; background-color: #c8e6d8 !important; width: 100%;',
+    img: 'max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 8px;',
+  },
+};

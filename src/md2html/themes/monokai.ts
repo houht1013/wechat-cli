@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const monokaiTheme: Theme = {
+  id: 'monokai',
+  name: 'Monokai',
+  description: '经典代码编辑器配色，程序员的终极浪漫',
+  codeTheme: 'monokai',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: "SF Mono", "Fira Code", Consolas, monospace; font-size: 15px; line-height: 1.7 !important; color: #f8f8f2 !important; background-color: #272822 !important; word-wrap: break-word;',
+    h1: 'font-size: 30px; font-weight: 700; color: #f92672 !important; line-height: 1.3 !important; margin: 38px 0 16px; letter-spacing: -0.01em;',
+    h2: 'font-size: 24px; font-weight: 600; color: #a6e22e !important; line-height: 1.35 !important; margin: 32px 0 16px;',
+    h3: 'font-size: 20px; font-weight: 600; color: #e6db74 !important; line-height: 1.4 !important; margin: 28px 0 14px;',
+    h4: 'font-size: 17px; font-weight: 600; color: #66d9ef !important; line-height: 1.4 !important; margin: 24px 0 12px;',
+    p: 'margin: 18px 0 !important; line-height: 1.7 !important; color: #f8f8f2 !important;',
+    strong: 'font-weight: 700; color: #f92672 !important;',
+    em: 'font-style: italic; color: #e6db74 !important;',
+    a: 'color: #66d9ef !important; text-decoration: none; border-bottom: 1px solid #66d9ef; padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 8px 0; line-height: 1.7 !important; color: #f8f8f2 !important;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: #3e3d32 !important; border-left: 4px solid #f92672; color: #a6a68a !important; border-radius: 4px;',
+    code: 'font-family: "SF Mono", "Fira Code", Consolas, monospace; padding: 3px 6px; background-color: #3e3d32 !important; color: #a6e22e !important; border-radius: 4px; font-size: 13px !important; line-height: 1.5 !important;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #3e3d32 !important; border-radius: 8px; overflow-x: auto; font-size: 13px !important; line-height: 1.5 !important;',
+    table: 'width: 100%; margin: 24px 0; border-collapse: collapse; font-size: 14px;',
+    th: 'background-color: #3e3d32 !important; padding: 12px 16px; text-align: left; font-weight: 600; color: #a6e22e !important; border: 1px solid #49483e;',
+    td: 'padding: 12px 16px; border: 1px solid #49483e; color: #f8f8f2 !important;',
+    tr_even: 'background-color: #3e3d32;',
+    hr: 'margin: 36px auto; border: none; height: 1px; background-color: #49483e !important; width: 100%;',
+    img: 'max-width: 100%; height: auto; display: block; margin: 24px auto; border-radius: 4px;',
+  },
+};

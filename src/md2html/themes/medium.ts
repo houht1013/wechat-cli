@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const mediumTheme: Theme = {
+  id: 'medium',
+  name: 'Medium',
+  description: '简约柔和的西式博客排版，适合生活志与随笔沉淀',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.8; color: #242424; background-color: #ffffff; word-wrap: break-word;',
+    h1: 'font-size: 36px; font-weight: 700; color: #242424; line-height: 1.2; margin: 48px 0 16px; letter-spacing: -0.02em; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;',
+    h2: 'font-size: 28px; font-weight: 700; color: #242424; line-height: 1.3; margin: 40px 0 12px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;',
+    h3: 'font-size: 22px; font-weight: 600; color: #242424; line-height: 1.4; margin: 32px 0 10px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;',
+    h4: 'font-size: 18px; font-weight: 600; color: #242424; line-height: 1.4; margin: 24px 0 8px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;',
+    p: 'margin: 20px 0; line-height: 1.8; color: #242424;',
+    strong: 'font-weight: 700; color: #242424;',
+    em: 'font-style: italic; color: #242424;',
+    a: 'color: #242424; text-decoration: underline;',
+    ul: 'margin: 20px 0; padding-left: 30px;',
+    ol: 'margin: 20px 0; padding-left: 30px;',
+    li: 'margin: 8px 0; line-height: 1.8; color: #242424;',
+    blockquote: 'margin: 32px 0; padding: 0 0 0 24px; border-left: 3px solid #242424; color: #242424; font-style: italic; font-size: 20px;',
+    code: 'font-family: Menlo, Monaco, Consolas, monospace; padding: 3px 6px; background-color: #f2f2f2; color: #242424; border-radius: 3px; font-size: 15px;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #f7f7f7; border-radius: 4px; overflow-x: auto; font-size: 14px; line-height: 1.5;',
+    table: 'width: 100%; border-collapse: collapse; margin: 24px 0;',
+    th: 'padding: 12px 16px; background-color: #f7f7f7; font-weight: 600; text-align: left; border-bottom: 2px solid #242424;',
+    td: 'padding: 12px 16px; border-bottom: 1px solid #e6e6e6;',
+    tr_even: 'background-color: #fafafa;',
+    hr: 'border: none; text-align: center; margin: 40px 0; height: auto; background: none;',
+    img: 'max-width: 100%; height: auto; margin: 24px 0;',
+  },
+};

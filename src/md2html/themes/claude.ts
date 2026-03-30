@@ -1,0 +1,31 @@
+import type { Theme } from './types.js';
+
+export const claudeTheme: Theme = {
+  id: 'claude',
+  name: 'Claude',
+  description: '温润的燕麦卡其色底，适合深度长文或文学哲思',
+  codeTheme: 'github',
+  styles: {
+    container: 'max-width: 100%; margin: 0 auto; padding: 24px 20px 48px 20px; font-family: "Söhne", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.7; color: #3d3929; background-color: #f9f5ef; word-wrap: break-word;',
+    h1: 'font-size: 30px; font-weight: 700; color: #3d3929; line-height: 1.3; margin: 36px 0 16px;',
+    h2: 'font-size: 24px; font-weight: 600; color: #3d3929; line-height: 1.35; margin: 32px 0 14px;',
+    h3: 'font-size: 20px; font-weight: 600; color: #3d3929; line-height: 1.4; margin: 28px 0 12px;',
+    h4: 'font-size: 17px; font-weight: 600; color: #3d3929; line-height: 1.4; margin: 24px 0 10px;',
+    p: 'margin: 16px 0; line-height: 1.7; color: #3d3929;',
+    strong: 'font-weight: 700; color: #c96442;',
+    em: 'font-style: italic; color: #5a5344;',
+    a: 'color: #c96442; text-decoration: none; border-bottom: 1px solid rgba(201,100,66,0.3); padding-bottom: 1px;',
+    ul: 'margin: 16px 0; padding-left: 28px;',
+    ol: 'margin: 16px 0; padding-left: 28px;',
+    li: 'margin: 6px 0; line-height: 1.7; color: #3d3929;',
+    blockquote: 'margin: 24px 0; padding: 16px 20px; background-color: rgba(201,100,66,0.06); border-left: 4px solid #c96442; color: #5a5344; border-radius: 4px;',
+    code: 'font-family: "SF Mono", Consolas, monospace; padding: 3px 6px; background-color: rgba(201,100,66,0.08); color: #c96442; border-radius: 4px; font-size: 14px;',
+    pre: 'margin: 24px 0; padding: 20px; background-color: #f0ebe3; border-radius: 8px; overflow-x: auto; font-size: 14px; line-height: 1.5;',
+    table: 'width: 100%; border-collapse: collapse; margin: 24px 0;',
+    th: 'padding: 12px 16px; background-color: #c96442; color: #ffffff; font-weight: 600; text-align: left; border: 1px solid #c96442;',
+    td: 'padding: 10px 16px; border: 1px solid #e0d9cf; color: #3d3929;',
+    tr_even: 'background-color: #f0ebe3;',
+    hr: 'border: none; height: 1px; background-color: #e0d9cf; margin: 32px 0;',
+    img: 'max-width: 100%; height: auto; border-radius: 8px; margin: 16px 0;',
+  },
+};

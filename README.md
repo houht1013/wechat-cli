@@ -681,6 +681,17 @@ npm test             # 运行测试
 
 ---
 
+## 联系作者
+
+如有问题、建议或合作意向，欢迎通过微信联系。
+
+<div align="center">
+  <img src="pic/wechat_qrcode.png" alt="微信二维码" width="240" />
+  <p>微信号：<strong>houhtai</strong>（添加请备注「github」）</p>
+</div>
+
+---
+
 ## License
 
 MIT

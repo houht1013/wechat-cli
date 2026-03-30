@@ -29,7 +29,7 @@ npm install -g wechat-cli
 ### 从源码构建
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/houht1013/wechat-cli.git
 cd wechat-cli
 npm install
 npm run build
